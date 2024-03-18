@@ -12,6 +12,9 @@ def run(playwright: Playwright) -> None:
     page.get_by_label("Password", exact=True).fill("Orienta12!@")
     page.get_by_role("button", name="LOGIN!").click()
     page.get_by_text("NO THANKS").first.click()
+    page.waitForSelector('button', { state: 'visible' });
+    page.waitForSelector('button[name="ROLL!"]', { timeout: 60 * 60 * 1000 });
+    page.click('button[name="ROLL!"]');
 
     # ---------------------
     context.close()
