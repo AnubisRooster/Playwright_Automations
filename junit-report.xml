@@ -1,0 +1,26 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="15.598727">
+<testsuite name="tests/testCase2325.spec.ts" timestamp="2024-04-09T12:53:51.968Z" hostname="" tests="1" failures="0" skipped="0" time="14.087" errors="0">
+<testcase name="Login to Customer Portal › Login to Customer Portal with Valid Data" classname="tests/testCase2325.spec.ts" time="14.087">
+<properties>
+<property name="testrail_case_field" value="refs: TR-1">
+</property>
+<property name="testrail_result_comment" value="1. Click into Username field">
+</property>
+<property name="testrail_result_comment" value="2. Enter valid email address">
+</property>
+<property name="testrail_result_comment" value="3. Enter valid password">
+</property>
+<property name="testrail_result_comment" value="4. Verify successful login">
+</property>
+<property name="testrail_result_comment" value="5. Verify Workspaces running">
+</property>
+<property name="testrail_result_comment" value="6. Verify Visual Explain">
+</property>
+<property name="testrail_result_comment" value="7. Verify Database">
+</property>
+<property name="testrail_result_comment" value="8. Verify SQL Editor">
+</property>
+</properties>
+</testcase>
+</testsuite>
+</testsuites>
