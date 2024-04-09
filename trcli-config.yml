@@ -1,0 +1,5 @@
+host: https://singlestore.testrail.io
+project: "Playwright_project"
+username: "mfink@singlestore.com"
+password: "Orienta12!@"
+title: "Playwright Automated Test Run"
