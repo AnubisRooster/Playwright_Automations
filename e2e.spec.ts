@@ -22,7 +22,7 @@ test.describe('Login to Customer Portal', () => {
     // Enter Password
     testInfo.annotations.push({type: 'testrail_result_comment', description: '3. Enter valid password'});
     await page.getByPlaceholder('Enter password here').click();
-    await page.getByPlaceholder('Enter password here').fill('Orienta12!@');
+    await page.getByPlaceholder('Enter password here').fill('insertpassword');
     await page.getByRole('button', { name: 'Sign In' }).click();
 
     // Verify Successful Login
