@@ -16,13 +16,13 @@ test.describe('Login to Customer Portal', () => {
 
     // Enter valid email address
     testInfo.annotations.push({type: 'testrail_result_comment', description: '2. Enter valid email address'});
-    await page.getByPlaceholder('you@example.com').fill('atmmfink@gmail.com');
+    await page.getByPlaceholder('you@example.com').fill('sumdum@email.com');
     await page.getByRole('button', { name: 'Continue' }).click();
 
     // Enter Password
     testInfo.annotations.push({type: 'testrail_result_comment', description: '3. Enter valid password'});
     await page.getByPlaceholder('Enter password here').click();
-    await page.getByPlaceholder('Enter password here').fill('Orienta12!@');
+    await page.getByPlaceholder('Enter password here').fill('insertpassword');
     await page.getByRole('button', { name: 'Sign In' }).click();
 
     // Verify Successful Login
@@ -54,6 +54,6 @@ test.describe('Login to Customer Portal', () => {
     await page.locator('.view-lines').click();
     await page.getByLabel('SQL Editor;Press Alt+F1 for').fill('SELECT * FROM information_schema.USERS;');
     await page.getByLabel('Run').click();
-    await page.getByTestId('results-output-table').getByText('atmmfink@gmail.com', { exact: true }).click();
+    await page.getByTestId('results-output-table').getByText('sumdum@email.com', { exact: true }).click();
   });
 });
