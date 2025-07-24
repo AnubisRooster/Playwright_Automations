@@ -10,9 +10,9 @@ test('freebitco.in free roll', async ({ page }) => {
     await page.getByRole('link', { name: 'LOGIN' }).click();
     await page.getByText('NO THANKS').first().click();
     await page.getByLabel('Bitcoin Address/E-mail Address').click();
-    await page.getByLabel('Bitcoin Address/E-mail Address').fill('atm_mfink@hotmail.com');
+    await page.getByLabel('Bitcoin Address/E-mail Address').fill('sumdum@hotmail.com');
     await page.getByLabel('Password', { exact: true }).click();
-    await page.getByLabel('Password', { exact: true }).fill('Orienta12!@');
+    await page.getByLabel('Password', { exact: true }).fill('insertpassword');
     await page.getByLabel('Password', { exact: true }).press('Enter');
     await page.getByRole('button', { name: 'LOGIN!' }).click();
     await page.getByText('NO THANKS').first().click();
