@@ -1,0 +1,362 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "play_run",
+      "label": "run()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "run()",
+      "file_type": "code",
+      "norm_label": "run()",
+      "source_file": "play.py",
+      "source_location": "L3"
+    },
+    {
+      "id": "scripts_graphify_pipeline_keep",
+      "label": "keep()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "graphify_pipeline.py",
+      "file_type": "code",
+      "norm_label": "keep()",
+      "source_file": "scripts/graphify_pipeline.py",
+      "source_location": "L41"
+    },
+    {
+      "id": "test",
+      "label": "@playwright/test",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "playwright.config.ts",
+      "confidence": "EXTRACTED",
+      "file_type": "code",
+      "norm_label": "@playwright/test",
+      "source_file": "@playwright/test"
+    },
+    {
+      "id": "playwright_config",
+      "label": "playwright.config.ts",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "playwright.config.ts",
+      "file_type": "code",
+      "norm_label": "playwright.config.ts",
+      "source_file": "playwright.config.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "playwright_config_config",
+      "label": "config",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "playwright.config.ts",
+      "file_type": "code",
+      "norm_label": "config",
+      "source_file": "playwright.config.ts",
+      "source_location": "L18"
+    },
+    {
+      "id": "playwright_config_testrailoptions",
+      "label": "testRailOptions",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "playwright.config.ts",
+      "file_type": "code",
+      "norm_label": "testrailoptions",
+      "source_file": "playwright.config.ts",
+      "source_location": "L7"
+    },
+    {
+      "id": "playwright_config2",
+      "label": "playwright.config2.js",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "playwright.config2.js",
+      "file_type": "code",
+      "norm_label": "playwright.config2.js",
+      "source_file": "playwright.config2.js",
+      "source_location": "L1"
+    },
+    {
+      "id": "playwright_config2_config",
+      "label": "config",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "playwright.config2.js",
+      "file_type": "code",
+      "norm_label": "config",
+      "source_file": "playwright.config2.js",
+      "source_location": "L20"
+    },
+    {
+      "id": "playwright_config2_devices",
+      "label": "{ devices }",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "playwright.config2.js",
+      "file_type": "code",
+      "norm_label": "{ devices }",
+      "source_file": "playwright.config2.js",
+      "source_location": "L2"
+    },
+    {
+      "id": "playwright_config2_testrailoptions",
+      "label": "testRailOptions",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "playwright.config2.js",
+      "file_type": "code",
+      "norm_label": "testrailoptions",
+      "source_file": "playwright.config2.js",
+      "source_location": "L9"
+    },
+    {
+      "id": "play",
+      "label": "play.py",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "run()",
+      "file_type": "code",
+      "norm_label": "play.py",
+      "source_file": "play.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "playwright",
+      "label": "Playwright",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "run()",
+      "file_type": "code",
+      "norm_label": "playwright",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "scripts_graphify_pipeline",
+      "label": "graphify_pipeline.py",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "graphify_pipeline.py",
+      "file_type": "code",
+      "norm_label": "graphify_pipeline.py",
+      "source_file": "scripts/graphify_pipeline.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_graphify_pipeline_rationale_1",
+      "label": "Self-contained graphify pipeline for CI. Builds a knowledge graph over this\u2026",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "graphify_pipeline.py",
+      "file_type": "rationale",
+      "norm_label": "self-contained graphify pipeline for ci. builds a knowledge graph over this...",
+      "source_file": "scripts/graphify_pipeline.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "e2e_spec",
+      "label": "e2e.spec.ts",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "e2e.spec.ts",
+      "file_type": "code",
+      "norm_label": "e2e.spec.ts",
+      "source_file": "e2e.spec.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "e2e_spec_savevideo",
+      "label": "{ saveVideo }",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "e2e.spec.ts",
+      "file_type": "code",
+      "norm_label": "{ savevideo }",
+      "source_file": "e2e.spec.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "portalogin",
+      "label": "portalogin.ts",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "portalogin.ts",
+      "file_type": "code",
+      "norm_label": "portalogin.ts",
+      "source_file": "portalogin.ts",
+      "source_location": "L1"
+    },
+    {
+      "id": "portalogin_savevideo",
+      "label": "{ saveVideo }",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "portalogin.ts",
+      "file_type": "code",
+      "norm_label": "{ savevideo }",
+      "source_file": "portalogin.ts",
+      "source_location": "L3"
+    },
+    {
+      "id": "playtimeout",
+      "label": "playtimeout.py",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "playtimeout.py",
+      "file_type": "code",
+      "norm_label": "playtimeout.py",
+      "source_file": "playtimeout.py",
+      "source_location": "L1"
+    }
+  ],
+  "links": [
+    {
+      "source": "play_run",
+      "target": "playwright",
+      "relation": "references",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "parameter_type",
+      "source_file": "play.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "e2e_spec",
+      "target": "e2e_spec_savevideo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2e.spec.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "play",
+      "target": "play_run",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "play.py",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config",
+      "target": "playwright_config_config",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config.ts",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config",
+      "target": "playwright_config_testrailoptions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config.ts",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config2",
+      "target": "playwright_config2_devices",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config2.js",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config2",
+      "target": "playwright_config2_config",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config2.js",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config2",
+      "target": "playwright_config2_testrailoptions",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config2.js",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "portalogin",
+      "target": "portalogin_savevideo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "portalogin.ts",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_graphify_pipeline",
+      "target": "scripts_graphify_pipeline_keep",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/graphify_pipeline.py",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "playwright_config",
+      "target": "test",
+      "relation": "dynamic_import",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config.ts"
+    },
+    {
+      "source": "playwright_config2",
+      "target": "test",
+      "relation": "dynamic_import",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "playwright.config2.js"
+    },
+    {
+      "source": "scripts_graphify_pipeline_rationale_1",
+      "target": "scripts_graphify_pipeline",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/graphify_pipeline.py",
+      "source_location": "L1",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "989c137f5550859dc9e9d51ddf89962a16f66a95"
+}
