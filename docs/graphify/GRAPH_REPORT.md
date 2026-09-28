@@ -1,7 +1,7 @@
-# Graph Report - Playwright_Automations  (2026-09-21)
+# Graph Report - Playwright_Automations  (2026-09-28)
 
 ## Corpus Check
-- Corpus is ~13,299 words - fits in a single context window. You may not need a graph.
+- Corpus is ~14,927 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 34 nodes · 31 edges · 5 communities (4 shown, 1 thin omitted)
@@ -51,7 +51,7 @@ Nodes (3): run(), Playwright, playwright_sync_api
 
 ## Knowledge Gaps
 - **7 isolated node(s):** `{ saveVideo }`, `testRailOptions`, `config`, `{ devices }`, `testRailOptions` (+2 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 24 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges. (Counts symbols only; 24 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **1 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
