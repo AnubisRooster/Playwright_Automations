@@ -1,7 +1,7 @@
-# Graph Report - Playwright_Automations  (2026-10-05)
+# Graph Report - Playwright_Automations  (2026-10-12)
 
 ## Corpus Check
-- Corpus is ~14,924 words - fits in a single context window. You may not need a graph.
+- Corpus is ~14,920 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 34 nodes · 31 edges · 5 communities (1 shown, 4 thin omitted)
@@ -37,14 +37,10 @@ Cohesion: 0.25
 Nodes (5): config, { devices }, testRailOptions, config, testRailOptions
 
 ## Knowledge Gaps
-- **7 isolated node(s):** `{ saveVideo }`, `testRailOptions`, `config`, `{ devices }`, `testRailOptions` (+2 more)
-  These have ≤1 connection - possible missing edges. (Counts symbols only; 24 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **4 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **What connects `{ saveVideo }`, `testRailOptions`, `config` to the rest of the system?**
-  _7 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `graphify_pipeline.py` be split into smaller, more focused modules?**
   _Cohesion score 0.13333333333333333 - nodes in this community are weakly interconnected._
