@@ -1,7 +1,7 @@
-# Graph Report - Playwright_Automations  (2026-11-02)
+# Graph Report - Playwright_Automations  (2026-11-09)
 
 ## Corpus Check
-- Corpus is ~13,982 words - fits in a single context window. You may not need a graph.
+- Corpus is ~14,185 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 - 34 nodes · 31 edges · 5 communities (1 shown, 4 thin omitted)
